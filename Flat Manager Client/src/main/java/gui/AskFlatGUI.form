@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.AskFlatGUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="908" height="593"/>
+    </constraints>
+    <properties>
+      <background color="-13025985"/>
+      <preferredSize width="700" height="450"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="32d48" binding="dialogPanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-13025985"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="e3d74" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <preferredSize width="445" height="30"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="5e31f" class="javax.swing.JLabel" binding="messageLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Franklin Gothic Demi" size="20" style="0"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <preferredSize width="445" height="30"/>
+                  <text value="Введите данные о квартире:"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="10c16" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <preferredSize width="400" height="30"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="18e83" class="javax.swing.JLabel" binding="nameLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Franklin Gothic Demi" size="14" style="0"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="4"/>
+                  <preferredSize width="220" height="30"/>
+                  <text value="Имя:"/>
+                </properties>
+              </component>
+              <component id="54a48" class="javax.swing.JTextField" binding="nameField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="5" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <background color="-13025985"/>
+                  <caretColor color="-1"/>
+                  <disabledTextColor color="-1"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <preferredSize width="220" height="30"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="5495" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <preferredSize width="365" height="30"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="93693" class="javax.swing.JLabel" binding="areaLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Franklin Gothic Demi" size="14" style="0"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="4"/>
+                  <horizontalTextPosition value="0"/>
+                  <preferredSize width="220" height="30"/>
+                  <text value="Площадь:"/>
+                  <verticalAlignment value="0"/>
+                  <verticalTextPosition value="0"/>
+                </properties>
+              </component>
+              <component id="b51ea" class="javax.swing.JTextField" binding="areaField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="5" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <background color="-13025985"/>
+                  <caretColor color="-1"/>
+                  <disabledTextColor color="-1"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <preferredSize width="220" height="30"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="94de5" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <preferredSize width="365" height="30"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="1762f" class="javax.swing.JLabel" binding="numberOfRoomsLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Franklin Gothic Demi" size="14" style="0"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="4"/>
+                  <preferredSize width="220" height="30"/>
+                  <text value="Количество комнат:"/>
+                </properties>
+              </component>
+              <component id="321c8" class="javax.swing.JTextField" binding="numberOfRoomsField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="5" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <background color="-13025985"/>
+                  <caretColor color="-1"/>
+                  <disabledTextColor color="-1"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <preferredSize width="220" height="30"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="25f2" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <preferredSize width="365" height="30"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="16a45" class="javax.swing.JLabel" binding="xCoordinateLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Franklin Gothic Demi" size="14" style="0"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="4"/>
+                  <preferredSize width="220" height="30"/>
+                  <text value="Координата X:"/>
+                </properties>
+              </component>
+              <component id="9728a" class="javax.swing.JTextField" binding="xCoordinateField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="5" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <background color="-13025985"/>
+                  <caretColor color="-1"/>
+                  <disabledTextColor color="-1"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <preferredSize width="220" height="30"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="2e49e" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <preferredSize width="365" height="30"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="60216" class="javax.swing.JLabel" binding="yCoordinateLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Franklin Gothic Demi" size="14" style="0"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="4"/>
+                  <preferredSize width="220" height="30"/>
+                  <text value="Координата Y:"/>
+                </properties>
+              </component>
+              <component id="e3ef8" class="javax.swing.JTextField" binding="yCoordinateField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="5" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <background color="-13025985"/>
+                  <caretColor color="-1"/>
+                  <disabledTextColor color="-1"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <preferredSize width="220" height="30"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="f97b9" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <preferredSize width="405" height="30"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="dbf17" class="javax.swing.JLabel" binding="furnishLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Franklin Gothic Demi" size="14" style="0"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="4"/>
+                  <preferredSize width="220" height="30"/>
+                  <text value="Качество обстановки:"/>
+                </properties>
+              </component>
+              <component id="d88e6" class="javax.swing.JTextField" binding="furnishField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="5" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <background color="-13025985"/>
+                  <caretColor color="-1"/>
+                  <disabledTextColor color="-1"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <preferredSize width="220" height="30"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="f79e3" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <preferredSize width="405" height="30"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="9a50d" class="javax.swing.JLabel" binding="viewLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Franklin Gothic Demi" size="14" style="0"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="4"/>
+                  <preferredSize width="220" height="30"/>
+                  <text value="Поле зрения:"/>
+                </properties>
+              </component>
+              <component id="addd" class="javax.swing.JTextField" binding="viewField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="5" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <background color="-13025985"/>
+                  <caretColor color="-1"/>
+                  <disabledTextColor color="-1"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <preferredSize width="220" height="30"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="85c93" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <preferredSize width="405" height="30"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="97c0b" class="javax.swing.JLabel" binding="transportLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Franklin Gothic Demi" size="14" style="0"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="4"/>
+                  <preferredSize width="220" height="30"/>
+                  <text value="Вид транспорта:"/>
+                </properties>
+              </component>
+              <component id="b2e6c" class="javax.swing.JTextField" binding="transportField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="5" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <background color="-13025985"/>
+                  <caretColor color="-1"/>
+                  <disabledTextColor color="-1"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <preferredSize width="220" height="30"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="f50fa" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <preferredSize width="405" height="30"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="c8a4c" class="javax.swing.JLabel" binding="houseNameLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Franklin Gothic Demi" size="14" style="0"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="4"/>
+                  <preferredSize width="220" height="30"/>
+                  <text value="Имя дома:"/>
+                </properties>
+              </component>
+              <component id="76213" class="javax.swing.JTextField" binding="houseNameField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="5" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <background color="-13025985"/>
+                  <caretColor color="-1"/>
+                  <disabledTextColor color="-1"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <preferredSize width="220" height="30"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="9bbc6" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <preferredSize width="405" height="30"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="1df1b" class="javax.swing.JLabel" binding="houseYearLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Franklin Gothic Demi" size="14" style="0"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="4"/>
+                  <preferredSize width="220" height="30"/>
+                  <text value="Возраст дома:"/>
+                </properties>
+              </component>
+              <component id="d566d" class="javax.swing.JTextField" binding="houseYearField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="5" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <background color="-13025985"/>
+                  <caretColor color="-1"/>
+                  <disabledTextColor color="-1"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <preferredSize width="220" height="30"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="12cde" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <preferredSize width="445" height="30"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="f3d94" class="javax.swing.JLabel" binding="houseNumberOfFlatsOnFloorLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Franklin Gothic Demi" size="14" style="0"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="4"/>
+                  <preferredSize width="220" height="30"/>
+                  <text value="Количество квартир на этаже:"/>
+                </properties>
+              </component>
+              <component id="c794b" class="javax.swing.JTextField" binding="houseNumberOfFlatsOnFloorField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                  <gridbag top="0" left="5" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <background color="-13025985"/>
+                  <caretColor color="-1"/>
+                  <disabledTextColor color="-1"/>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <preferredSize width="220" height="30"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="b46b5" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag top="10" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <preferredSize width="445" height="30"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="35ee0" class="javax.swing.JButton" binding="backButton" custom-create="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="5" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <actionCommand value=""/>
+                  <alignmentX value="0.5"/>
+                  <alignmentY value="0.5"/>
+                  <autoscrolls value="false"/>
+                  <background color="-13025985"/>
+                  <borderPainted value="true"/>
+                  <focusPainted value="false"/>
+                  <font name="Franklin Gothic Demi" size="18" style="0"/>
+                  <foreground color="-1"/>
+                  <preferredSize width="180" height="30"/>
+                  <text value="Назад"/>
+                </properties>
+                <clientProperties>
+                  <hideActionText class="java.lang.Boolean" value="false"/>
+                </clientProperties>
+              </component>
+              <component id="787b8" class="javax.swing.JButton" binding="sendButton" custom-create="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <actionCommand value=""/>
+                  <alignmentX value="0.5"/>
+                  <alignmentY value="0.5"/>
+                  <autoscrolls value="false"/>
+                  <background color="-13025985"/>
+                  <borderPainted value="true"/>
+                  <focusPainted value="false"/>
+                  <font name="Franklin Gothic Demi" size="18" style="0"/>
+                  <foreground color="-1"/>
+                  <preferredSize width="180" height="30"/>
+                  <text value="Отправить"/>
+                </properties>
+                <clientProperties>
+                  <hideActionText class="java.lang.Boolean" value="false"/>
+                </clientProperties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

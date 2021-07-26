@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.ElementInfoGUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="898" height="527"/>
+    </constraints>
+    <properties>
+      <background color="-13025985"/>
+      <foreground color="-13025985"/>
+      <preferredSize width="700" height="450"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="3ebe" binding="elementInfoPanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-13025985"/>
+          <preferredSize width="650" height="210"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="6d7d3" class="javax.swing.JLabel" binding="userNameLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <font name="Franklin Gothic Demi" size="18" style="0"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="0"/>
+              <preferredSize width="325" height="30"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="fc2f9" class="javax.swing.JLabel" binding="coordinateXLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <font name="Franklin Gothic Demi" size="18" style="0"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="0"/>
+              <preferredSize width="325" height="30"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="44e1a" class="javax.swing.JLabel" binding="areaLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <font name="Franklin Gothic Demi" size="18" style="0"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="0"/>
+              <preferredSize width="325" height="30"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="df5a6" class="javax.swing.JLabel" binding="furnishLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <font name="Franklin Gothic Demi" size="18" style="0"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="0"/>
+              <preferredSize width="325" height="30"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="227a8" class="javax.swing.JLabel" binding="idLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <font name="Franklin Gothic Demi" size="18" style="0"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="4"/>
+              <horizontalTextPosition value="0"/>
+              <preferredSize width="325" height="30"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="e823a" class="javax.swing.JLabel" binding="creationDateLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <font name="Franklin Gothic Demi" size="18" style="0"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="4"/>
+              <horizontalTextPosition value="0"/>
+              <preferredSize width="325" height="30"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="55738" class="javax.swing.JLabel" binding="nameLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <font name="Franklin Gothic Demi" size="18" style="0"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="0"/>
+              <preferredSize width="325" height="30"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="932ab" class="javax.swing.JLabel" binding="coordinateYLabel">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <font name="Franklin Gothic Demi" size="18" style="0"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="4"/>
+              <horizontalTextPosition value="0"/>
+              <preferredSize width="325" height="30"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="2b6df" class="javax.swing.JLabel" binding="numberOfRoomsLabel">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <font name="Franklin Gothic Demi" size="18" style="0"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="4"/>
+              <horizontalTextPosition value="0"/>
+              <preferredSize width="325" height="30"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="c5dd3" class="javax.swing.JLabel" binding="viewLabel">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <font name="Franklin Gothic Demi" size="18" style="0"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="4"/>
+              <horizontalTextPosition value="0"/>
+              <preferredSize width="325" height="30"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="2be55" class="javax.swing.JLabel" binding="houseNameLabel">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <font name="Franklin Gothic Demi" size="18" style="0"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="4"/>
+              <horizontalTextPosition value="0"/>
+              <preferredSize width="325" height="30"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="2bc19" class="javax.swing.JLabel" binding="houseNumberOfFlatsOnFloorLabel">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <font name="Franklin Gothic Demi" size="18" style="0"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="4"/>
+              <horizontalTextPosition value="0"/>
+              <preferredSize width="325" height="30"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="48b95" class="javax.swing.JLabel" binding="transportLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <font name="Franklin Gothic Demi" size="18" style="0"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="0"/>
+              <preferredSize width="325" height="30"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="5d3f" class="javax.swing.JLabel" binding="houseYearLabel">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-13025985"/>
+              <font name="Franklin Gothic Demi" size="18" style="0"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="0"/>
+              <preferredSize width="325" height="30"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="17447" binding="backButtonPanel" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="20" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-13025985"/>
+          <preferredSize width="500" height="30"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="87a9b" class="javax.swing.JButton" binding="backButton" custom-create="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="0" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <actionCommand value=""/>
+              <alignmentX value="0.5"/>
+              <alignmentY value="0.5"/>
+              <autoscrolls value="false"/>
+              <background color="-13025985"/>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font name="Franklin Gothic Demi" size="18" style="0"/>
+              <foreground color="-1"/>
+              <preferredSize width="180" height="30"/>
+              <text value="Назад"/>
+            </properties>
+            <clientProperties>
+              <hideActionText class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+          <component id="afa21" class="javax.swing.JButton" binding="changeButton" custom-create="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="5" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <actionCommand value=""/>
+              <alignmentX value="0.5"/>
+              <alignmentY value="0.5"/>
+              <autoscrolls value="false"/>
+              <background color="-13025985"/>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font name="Franklin Gothic Demi" size="18" style="0"/>
+              <foreground color="-1"/>
+              <preferredSize width="180" height="30"/>
+              <text value="Изменить"/>
+            </properties>
+            <clientProperties>
+              <hideActionText class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
